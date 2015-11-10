@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F45828DE1BF2B9E3004BBC8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45828DD1BF2B9E3004BBC8D /* AppDelegate.swift */; };
+		F45828E01BF2B9E3004BBC8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45828DF1BF2B9E3004BBC8D /* ViewController.swift */; };
+		F45828E31BF2B9E3004BBC8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45828E11BF2B9E3004BBC8D /* Main.storyboard */; };
+		F45828E61BF2B9E3004BBC8D /* MathIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F45828E41BF2B9E3004BBC8D /* MathIOS.xcdatamodeld */; };
+		F45828E81BF2B9E3004BBC8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45828E71BF2B9E3004BBC8D /* Assets.xcassets */; };
+		F45828EB1BF2B9E3004BBC8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45828E91BF2B9E3004BBC8D /* LaunchScreen.storyboard */; };
+		F45828F61BF2B9E3004BBC8D /* MathIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45828F51BF2B9E3004BBC8D /* MathIOSTests.swift */; };
+		F45829011BF2B9E3004BBC8D /* MathIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45829001BF2B9E3004BBC8D /* MathIOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F45828F21BF2B9E3004BBC8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45828D21BF2B9E2004BBC8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45828D91BF2B9E2004BBC8D;
+			remoteInfo = MathIOS;
+		};
+		F45828FD1BF2B9E3004BBC8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45828D21BF2B9E2004BBC8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45828D91BF2B9E2004BBC8D;
+			remoteInfo = MathIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F45828DA1BF2B9E2004BBC8D /* MathIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45828DD1BF2B9E3004BBC8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F45828DF1BF2B9E3004BBC8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F45828E21BF2B9E3004BBC8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F45828E51BF2B9E3004BBC8D /* MathIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MathIOS.xcdatamodel; sourceTree = "<group>"; };
+		F45828E71BF2B9E3004BBC8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F45828EA1BF2B9E3004BBC8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F45828EC1BF2B9E3004BBC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45828F11BF2B9E3004BBC8D /* MathIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45828F51BF2B9E3004BBC8D /* MathIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathIOSTests.swift; sourceTree = "<group>"; };
+		F45828F71BF2B9E3004BBC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45828FC1BF2B9E3004BBC8D /* MathIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45829001BF2B9E3004BBC8D /* MathIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathIOSUITests.swift; sourceTree = "<group>"; };
+		F45829021BF2B9E3004BBC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F45828D71BF2B9E2004BBC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45828EE1BF2B9E3004BBC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45828F91BF2B9E3004BBC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F45828D11BF2B9E2004BBC8D = {
+			isa = PBXGroup;
+			children = (
+				F45828DC1BF2B9E2004BBC8D /* MathIOS */,
+				F45828F41BF2B9E3004BBC8D /* MathIOSTests */,
+				F45828FF1BF2B9E3004BBC8D /* MathIOSUITests */,
+				F45828DB1BF2B9E2004BBC8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F45828DB1BF2B9E2004BBC8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F45828DA1BF2B9E2004BBC8D /* MathIOS.app */,
+				F45828F11BF2B9E3004BBC8D /* MathIOSTests.xctest */,
+				F45828FC1BF2B9E3004BBC8D /* MathIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F45828DC1BF2B9E2004BBC8D /* MathIOS */ = {
+			isa = PBXGroup;
+			children = (
+				F45828DD1BF2B9E3004BBC8D /* AppDelegate.swift */,
+				F45828DF1BF2B9E3004BBC8D /* ViewController.swift */,
+				F45828E11BF2B9E3004BBC8D /* Main.storyboard */,
+				F45828E71BF2B9E3004BBC8D /* Assets.xcassets */,
+				F45828E91BF2B9E3004BBC8D /* LaunchScreen.storyboard */,
+				F45828EC1BF2B9E3004BBC8D /* Info.plist */,
+				F45828E41BF2B9E3004BBC8D /* MathIOS.xcdatamodeld */,
+			);
+			path = MathIOS;
+			sourceTree = "<group>";
+		};
+		F45828F41BF2B9E3004BBC8D /* MathIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F45828F51BF2B9E3004BBC8D /* MathIOSTests.swift */,
+				F45828F71BF2B9E3004BBC8D /* Info.plist */,
+			);
+			path = MathIOSTests;
+			sourceTree = "<group>";
+		};
+		F45828FF1BF2B9E3004BBC8D /* MathIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F45829001BF2B9E3004BBC8D /* MathIOSUITests.swift */,
+				F45829021BF2B9E3004BBC8D /* Info.plist */,
+			);
+			path = MathIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F45828D91BF2B9E2004BBC8D /* MathIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45829051BF2B9E3004BBC8D /* Build configuration list for PBXNativeTarget "MathIOS" */;
+			buildPhases = (
+				F45828D61BF2B9E2004BBC8D /* Sources */,
+				F45828D71BF2B9E2004BBC8D /* Frameworks */,
+				F45828D81BF2B9E2004BBC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathIOS;
+			productName = MathIOS;
+			productReference = F45828DA1BF2B9E2004BBC8D /* MathIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F45828F01BF2B9E3004BBC8D /* MathIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45829081BF2B9E3004BBC8D /* Build configuration list for PBXNativeTarget "MathIOSTests" */;
+			buildPhases = (
+				F45828ED1BF2B9E3004BBC8D /* Sources */,
+				F45828EE1BF2B9E3004BBC8D /* Frameworks */,
+				F45828EF1BF2B9E3004BBC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45828F31BF2B9E3004BBC8D /* PBXTargetDependency */,
+			);
+			name = MathIOSTests;
+			productName = MathIOSTests;
+			productReference = F45828F11BF2B9E3004BBC8D /* MathIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F45828FB1BF2B9E3004BBC8D /* MathIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F458290B1BF2B9E3004BBC8D /* Build configuration list for PBXNativeTarget "MathIOSUITests" */;
+			buildPhases = (
+				F45828F81BF2B9E3004BBC8D /* Sources */,
+				F45828F91BF2B9E3004BBC8D /* Frameworks */,
+				F45828FA1BF2B9E3004BBC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45828FE1BF2B9E3004BBC8D /* PBXTargetDependency */,
+			);
+			name = MathIOSUITests;
+			productName = MathIOSUITests;
+			productReference = F45828FC1BF2B9E3004BBC8D /* MathIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F45828D21BF2B9E2004BBC8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Edgar Cordova";
+				TargetAttributes = {
+					F45828D91BF2B9E2004BBC8D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F45828F01BF2B9E3004BBC8D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F45828D91BF2B9E2004BBC8D;
+					};
+					F45828FB1BF2B9E3004BBC8D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F45828D91BF2B9E2004BBC8D;
+					};
+				};
+			};
+			buildConfigurationList = F45828D51BF2B9E2004BBC8D /* Build configuration list for PBXProject "MathIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F45828D11BF2B9E2004BBC8D;
+			productRefGroup = F45828DB1BF2B9E2004BBC8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F45828D91BF2B9E2004BBC8D /* MathIOS */,
+				F45828F01BF2B9E3004BBC8D /* MathIOSTests */,
+				F45828FB1BF2B9E3004BBC8D /* MathIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F45828D81BF2B9E2004BBC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45828EB1BF2B9E3004BBC8D /* LaunchScreen.storyboard in Resources */,
+				F45828E81BF2B9E3004BBC8D /* Assets.xcassets in Resources */,
+				F45828E31BF2B9E3004BBC8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45828EF1BF2B9E3004BBC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45828FA1BF2B9E3004BBC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F45828D61BF2B9E2004BBC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45828E01BF2B9E3004BBC8D /* ViewController.swift in Sources */,
+				F45828DE1BF2B9E3004BBC8D /* AppDelegate.swift in Sources */,
+				F45828E61BF2B9E3004BBC8D /* MathIOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45828ED1BF2B9E3004BBC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45828F61BF2B9E3004BBC8D /* MathIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45828F81BF2B9E3004BBC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45829011BF2B9E3004BBC8D /* MathIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F45828F31BF2B9E3004BBC8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45828D91BF2B9E2004BBC8D /* MathIOS */;
+			targetProxy = F45828F21BF2B9E3004BBC8D /* PBXContainerItemProxy */;
+		};
+		F45828FE1BF2B9E3004BBC8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45828D91BF2B9E2004BBC8D /* MathIOS */;
+			targetProxy = F45828FD1BF2B9E3004BBC8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F45828E11BF2B9E3004BBC8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45828E21BF2B9E3004BBC8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F45828E91BF2B9E3004BBC8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45828EA1BF2B9E3004BBC8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F45829031BF2B9E3004BBC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F45829041BF2B9E3004BBC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F45829061BF2B9E3004BBC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MathIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.CordSoft.MathIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F45829071BF2B9E3004BBC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MathIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.CordSoft.MathIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F45829091BF2B9E3004BBC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MathIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.CordSoft.MathIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathIOS.app/MathIOS";
+			};
+			name = Debug;
+		};
+		F458290A1BF2B9E3004BBC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MathIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.CordSoft.MathIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathIOS.app/MathIOS";
+			};
+			name = Release;
+		};
+		F458290C1BF2B9E3004BBC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MathIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.CordSoft.MathIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MathIOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F458290D1BF2B9E3004BBC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MathIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.CordSoft.MathIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MathIOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F45828D51BF2B9E2004BBC8D /* Build configuration list for PBXProject "MathIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45829031BF2B9E3004BBC8D /* Debug */,
+				F45829041BF2B9E3004BBC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45829051BF2B9E3004BBC8D /* Build configuration list for PBXNativeTarget "MathIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45829061BF2B9E3004BBC8D /* Debug */,
+				F45829071BF2B9E3004BBC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F45829081BF2B9E3004BBC8D /* Build configuration list for PBXNativeTarget "MathIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45829091BF2B9E3004BBC8D /* Debug */,
+				F458290A1BF2B9E3004BBC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F458290B1BF2B9E3004BBC8D /* Build configuration list for PBXNativeTarget "MathIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F458290C1BF2B9E3004BBC8D /* Debug */,
+				F458290D1BF2B9E3004BBC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F45828E41BF2B9E3004BBC8D /* MathIOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F45828E51BF2B9E3004BBC8D /* MathIOS.xcdatamodel */,
+			);
+			currentVersion = F45828E51BF2B9E3004BBC8D /* MathIOS.xcdatamodel */;
+			path = MathIOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F45828D21BF2B9E2004BBC8D /* Project object */;
+}
