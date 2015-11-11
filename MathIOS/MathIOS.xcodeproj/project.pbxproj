@@ -15,6 +15,7 @@
 		F45828EB1BF2B9E3004BBC8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45828E91BF2B9E3004BBC8D /* LaunchScreen.storyboard */; };
 		F45828F61BF2B9E3004BBC8D /* MathIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45828F51BF2B9E3004BBC8D /* MathIOSTests.swift */; };
 		F45829011BF2B9E3004BBC8D /* MathIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45829001BF2B9E3004BBC8D /* MathIOSUITests.swift */; };
+		F458290F1BF2BEB7004BBC8D /* ViewControllerTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F458290E1BF2BEB7004BBC8D /* ViewControllerTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F45828FC1BF2B9E3004BBC8D /* MathIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45829001BF2B9E3004BBC8D /* MathIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathIOSUITests.swift; sourceTree = "<group>"; };
 		F45829021BF2B9E3004BBC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F458290E1BF2BEB7004BBC8D /* ViewControllerTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F45828DD1BF2B9E3004BBC8D /* AppDelegate.swift */,
 				F45828DF1BF2B9E3004BBC8D /* ViewController.swift */,
 				F45828E11BF2B9E3004BBC8D /* Main.storyboard */,
+				F458290E1BF2BEB7004BBC8D /* ViewControllerTwoViewController.swift */,
 				F45828E71BF2B9E3004BBC8D /* Assets.xcassets */,
 				F45828E91BF2B9E3004BBC8D /* LaunchScreen.storyboard */,
 				F45828EC1BF2B9E3004BBC8D /* Info.plist */,
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					F45828D91BF2B9E2004BBC8D = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5NCSSS52G6;
 					};
 					F45828F01BF2B9E3004BBC8D = {
 						CreatedOnToolsVersion = 7.1;
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F458290F1BF2BEB7004BBC8D /* ViewControllerTwoViewController.swift in Sources */,
 				F45828E01BF2B9E3004BBC8D /* ViewController.swift in Sources */,
 				F45828DE1BF2B9E3004BBC8D /* AppDelegate.swift in Sources */,
 				F45828E61BF2B9E3004BBC8D /* MathIOS.xcdatamodeld in Sources */,
@@ -403,10 +408,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MathIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.CordSoft.MathIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -414,10 +422,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MathIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.CordSoft.MathIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
